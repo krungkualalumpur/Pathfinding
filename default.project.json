@@ -1,0 +1,6 @@
+{
+  "name": "pathfinding",
+  "tree": {
+    "$path": "src"
+  }
+}
