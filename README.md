@@ -28,5 +28,4 @@ pathfinding.djikstraPathfinding(
     startPoint,     -- the starting point in the form of PointData
     endPoint        -- the ending point in the form of Point Data
 )
-PointsData 
 ```
