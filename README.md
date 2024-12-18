@@ -1,6 +1,6 @@
 # Pathfinding
  
-A simple djikstra pathfinding algorithm. 
+A simple djikstra pathfinding algorithm used in luau. 
 
 ## Introduction
 This library defines position points as PointData, which in detail is as follows:
