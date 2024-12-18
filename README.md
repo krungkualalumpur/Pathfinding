@@ -17,6 +17,9 @@ PointData = {
 	Came_From : PointData ?      -- used internally - not needed to be used
 }
 ```
+## Installation
+### Wally 
+pathfinding = "krungkualalumpur/pathfinding@0.1.1"
 
 ## How to use?
 Use the method ```djikstraPathfinding``` for performance optimized pathfinding search.
