@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "git.autofetch": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "luau-lsp.inlayHints.functionReturnTypes": true,
+    "luau-lsp.inlayHints.parameterNames": "all",
+    "luau-lsp.inlayHints.variableTypes": true,
+    "luau-lsp.inlayHints.typeHintMaxLength": 20,
+    "luau-lsp.completion.autocompleteEnd": true,
+    "git.confirmSync": false,
+    "luau-lsp.inlayHints.parameterTypes": true,
+    "terminal.integrated.profiles.windows": {
+        "serve": {
+            "path": "Scripts/serve.sh"
+        }
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[lua][luau]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+    "stylua.targetReleaseVersion": "latest",
+    "selene.run": "onSave",
+}
