@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Dark+",
     "git.autofetch": true,
     "[python]": {
         "editor.formatOnType": true

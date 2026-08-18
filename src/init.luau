@@ -73,7 +73,7 @@ local function BFS(points: { PointData }, startPoint: PointData)
 			
 			previousPoint = currentPoint]]
 
-			task.wait()
+			-- task.wait()
 		end
 	end
 
@@ -113,7 +113,7 @@ local function simple_Pathfind_algorithm(
 				break
 			end
 
-			task.wait()
+			-- task.wait()
 		end
 	end
 
@@ -188,7 +188,7 @@ local function processPathfindOutput(
 		if k and k.PointId == endN then
 			local currentK: PointData? = k
 			while currentK ~= nil do
-				task.wait()
+				-- task.wait()
 				table.insert(pointsData, currentK)
 				currentK = output[currentK]
 				if currentK.PointId == startN then
@@ -198,7 +198,7 @@ local function processPathfindOutput(
 			end
 			break
 		end
-		task.wait()
+		-- task.wait()
 	end
 
 	reverseTbl(pointsData)
